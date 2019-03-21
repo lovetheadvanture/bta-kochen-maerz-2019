@@ -15,15 +15,13 @@
         <a href="#">
           <img src="assets/img/logo.svg" alt="logo Kochmütze" width="100" height="50" title="Klick unbedingt hier">
         </a>
-
-        <nav>
-          <button type="button" name="button">
-            <img src="assets/img/menu.svg" alt="Log für Menü" height="40">
-          </button>
+        <button type="button" name="button" id="burger">
+          <img src="assets/img/menu.svg" alt="Log für Menü" height="40">
+        </button>
+        <nav id="navigation">
 
           <ul>
             <li>
-              <a href="#" id="Zaklina"
               <a href="#">Home</a>
             </li>
             <li>
@@ -36,7 +34,7 @@
               <a href="#">Kategorien</a>
             </li>
             <li>
-              <a href="#">Alles auf einem Blick</a>
+              <a href="#">Alles</a>
             </li>
             <li>
               <a href="#">Die Besten</a>
@@ -50,6 +48,41 @@
 
       </div>
     </header>
+    <main>
+      <section id="hero">
+        <div class="hero-box">
+          <h1>Die besten Rezepte für Webworker</h1>
+          <p>Es gibt mehr als Pizza und Ravioli</p>
+          <a href="#Rezepte" class="button">Entdecke die Leckerein</a>
+
+        </div>
+      </section>
+      <!-- das ist die Rezepte Section  -->
+      <section id="Rezepte">
+        <h2>Die neusten Rezepte</h2>
+
+        <div class="container">
+          <article class="card">
+            <a href="#"></a>
+            <img src="assets/img/pancakes.jpg" alt="pancakes">
+            <a href="#"></a>
+
+            <h3>
+              <a href="#">Total leckerer Pancake</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </p>
+
+          <a href="#" class="button">Zum Rezept</a>
+
+          </article>
+
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="assets/js/menu.js">
+
+    </script>
   </body>
 
 </html>
