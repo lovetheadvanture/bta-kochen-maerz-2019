@@ -84,6 +84,30 @@ nav a:hover{
     transition: 1.0 all ease;
   }
 
+.card .button:hover{
+  color:#374A67;
+  background: #fff;
+}
+
+.card .button{
+  color: #fff;
+  background:#374A67;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
+  border: 1px solid #374A67;
+  transition: 0.5 all ease;
+  margin-top: 15px;
+  display: block;
+  margin: 1rem;
+}
+.card p a{
+  color: #828282;
+  padding: 1rem;
+}
 .hero-box p{
   font-size: 20px;
 
@@ -101,7 +125,11 @@ nav a:hover{
 .card{
   text-align: center;
   color: #828282;
+  border-radius: 25px;
+  box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
+  overflow: hidden;
 }
+
 
 .card h3 a{
   color: #000;
