@@ -30,6 +30,7 @@ nav a:hover{
   justify-content: space-between;
   padding-left: 1rem;
   padding-right: 1rem;
+  flex-wrap: wrap;
 }
 #navigation{
   display: none;
@@ -89,6 +90,9 @@ nav a:hover{
   background: #fff;
 }
 
+#rezepte h2{
+  text-align: center;
+}
 .card .button{
   color: #fff;
   background:#374A67;
@@ -128,12 +132,34 @@ nav a:hover{
   border-radius: 25px;
   box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
   overflow: hidden;
+  margin: 10px;
 }
-
 
 .card h3 a{
   color: #000;
 }
+
+.newsletter input{
+  display: inline-block;
+  color: black;
+  background; white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+/* für tablets */
+@media (min-width: 768px) and (max-width:1023px){
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.card{
+    margin: 10px;
+		flex: 1 1 calc(50% - 20px)
+	}
+}
+
 @media (min-width: 1024px) {
     #burger{
       display: none;
@@ -145,8 +171,24 @@ nav li{
   float: left;
   margin: 15px;
 }
+
+
 .container{
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.card{
+  flex: 1 1 calc(33.333333% - 20px)
+}
+}
+
+.widget{
+  background: #04122b;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+
 }
